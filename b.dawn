@@ -1,0 +1,16 @@
+struct Maybe a {
+    Just a
+    Nothing
+}
+
+f :: Maybe Int -> Maybe Int
+f {
+    (Just x) = Just x
+    Nothing = Just 0
+}
+
+a :: Maybe (Maybe Char) -> Maybe (Maybe Int)
+a {
+    kek = kek
+    Nothing = Just (Just 'c')
+}
