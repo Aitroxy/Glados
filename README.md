@@ -2,6 +2,7 @@
 
 A simple compilated language made in Haskell
 
-* [Documentation]()
+* [Documentation](documentation/DOCUMENTATION.md)
 
-* [Syntax]()
+* [Project Subject](subject.pdf)
+
